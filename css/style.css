@@ -505,6 +505,10 @@ span.two {
   opacity: 0;
 }
 
+
+.experiences li {
+  list-style: disc;
+}
 @keyframes movedown {
   0%{
     opacity: 1;
@@ -524,6 +528,9 @@ span.two {
 }
 .experiences:nth-child(3){
   animation-delay: 1.2s;
+}
+.experiences:nth-child(4){
+  animation-delay: 1.4s;
 }
 
 .text-box {
@@ -1415,7 +1422,7 @@ span.two {
   }
 
   .experiences p {
-    font-size: 5px !important;
+    font-size: 15px !important;
   }
   .text-box{
     font-size: 13px;
